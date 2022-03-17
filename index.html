@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Tabelas HTML</h1>
+    </header>
+
+    <main>
+      <div style="background-color: azure">
+        <h2>Tabela Padrão</h2>
+        <table border="1">
+          <tr>
+            <th>Codigo</th>
+            <th>Descrição</th>
+            <th>Categoria</th>
+            <th>Valor</th>
+          </tr>
+
+          <tr>
+            <td>1</td>
+            <td>Camiseta</td>
+            <td>Manga Longa</td>
+            <td>R$ 50,00</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Moleton</td>
+            <td>Grosso</td>
+            <td>R$150,00</td>
+          </tr>
+        </table>
+      </div>
+
+      <div style="background-color: wheat">
+        <h2>Tabela Mesclada</h2>
+        <table border="1" style="width: 500px">
+          <tr style="height: 50px">
+            <th>Codigo</th>
+            <th>Descrição</th>
+            <th>Categoria</th>
+            <th>Valor</th>
+          </tr>
+
+          <tr>
+            <td align="center">1</td>
+            <td>Camiseta</td>
+            <td>Manga Longa</td>
+            <td>R$ 50,00</td>
+          </tr>
+
+          <tr align="center">
+            <td>2</td>
+            <td>Moleton</td>
+            <td>Grosso</td>
+            <td>R$150,00</td>
+          </tr>
+
+          <tr>
+            <td align="center">3</td>
+            <td colspan="3" align="center">Calça</td>
+          </tr>
+          <tr align="center">
+            <td rowspan="3" align="center">Promoção</td>
+            <td>Moleton</td>
+            <td>Grosso</td>
+            <td>R$150,00</td>
+          </tr>
+
+          <tr align="center">
+            <td>Moleton</td>
+            <td>Grosso</td>
+            <td>R$150,00</td>
+          </tr>
+
+          <tr align="center">
+            <td>Moleton</td>
+            <td>Grosso</td>
+            <td>R$150,00</td>
+          </tr>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
